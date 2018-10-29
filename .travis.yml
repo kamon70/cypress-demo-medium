@@ -11,7 +11,7 @@ cache:
     - ~/.cache
   # install dependencies and check that Cypress can run
   override:
-    - npm ci
+    - npm install
     - npm run cy:verify
 
 script:

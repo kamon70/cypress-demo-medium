@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - 10.12
+  - 10
 cache:
   directories:
     - ~/.npm
@@ -8,4 +8,4 @@ cache:
 install:
   - npm ci
 script:
-  - $(npm bin)/cypress run --record --key de970124-eecf-4c4f-a2ba-ed81d605cd22
+  - $(npm bin)/cypress run --record
